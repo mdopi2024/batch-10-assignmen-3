@@ -19,6 +19,12 @@
     .google-font{
         font-family: "Manrope", sans-serif;
     }
+    .bg-jpg{
+      background-image: url(./assets/bg.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
  </style>
 </head>
 <body class="google-font bg-[#F4F4F4] ">
@@ -245,5 +251,34 @@
 
 
        </section>
+       <!-- lets discous next project section start here -->
+        <section class="my-24 border p-5 bg-jpg md:py-12 md:px-16 lg:py-14 lg:px-20">
+          <!-- text aria  -->
+           <div class="border  border-red-600   md:w-2/3 lg:w-2/3 mx-auto text-center md:container lg:container">
+            <button class=" bg-[#ABEF5F33] text-xs py-2 px-5  ml-5">
+              <i class="fa-solid fa-arrow-right"></i>
+              Let’s Connect</button> 
+              <div class="leading-10 mt-7">
+                <h1 class="text-4xl lg:text-5xl font-bold mb-3">Let’s Discuss Next Project</h1>
+                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+              </div>
+
+           </div>    
+           
+           <!-- form aria  -->
+            <div class=" mt-6 md:container lg:container">
+              <form class="grid gap-5 md:grid-cols-2 lg:grid-cols-2" >
+                <input  type="text" placeholder="First Name*" class="input input-bordered rounded-3xl w-full" />
+                <input  type="text" placeholder="Last Name*" class="input input-bordered rounded-3xl w-full" />
+                <input  type="text" placeholder="Phone Number*" class="input input-bordered rounded-3xl w-full" />
+                <input  type="text" placeholder="Email Number*" class="input input-bordered rounded-3xl w-full" />
+                
+              <textarea class="w-full h-[150px] rounded-xl md:col-span-2 lg:col-span-2" name="" id="" placeholder="Write your message here"></textarea>
+              <button class="w-full bg-[#ABEF5F] py-3 rounded-xl md:col-span-2 lg:col-span-2">Sent Email <i class="fa-solid fa-arrow-right bg-black text-white p-1   rounded-full -rotate-45"></i> <button>
+              
+              </form>
+            </div>
+        </section>
+
 </body>
 </html>
